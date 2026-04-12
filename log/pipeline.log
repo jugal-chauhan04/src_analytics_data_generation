@@ -1,0 +1,424 @@
+2025-09-20 20:24:02,867 - INFO - Logging Initialized
+2025-09-20 20:24:02,897 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-20 20:24:06,565 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.67 sec
+2025-09-20 20:24:06,565 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-20 20:24:09,493 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  2.93 sec
+2025-09-20 20:24:09,493 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-20 20:24:12,626 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  3.13 sec
+2025-09-20 20:24:12,627 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2025-09-20 20:24:15,889 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.26 sec
+2025-09-20 20:24:15,889 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-20 20:24:19,207 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  3.32 sec
+2025-09-20 20:24:19,208 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-20 20:24:22,613 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.40 sec
+2025-09-20 20:24:22,613 - INFO - Starting load for saas-pipeline.raw_src.invoices | 30 rows 
+2025-09-20 20:24:27,084 - INFO - Loaded 30 rows into saas-pipeline.raw_src.invoices |Duration:  4.47 sec
+2025-09-20 20:24:27,084 - INFO - Starting load for saas-pipeline.raw_src.line_items | 32 rows 
+2025-09-20 20:24:30,080 - INFO - Loaded 32 rows into saas-pipeline.raw_src.line_items |Duration:  3.00 sec
+2025-09-20 20:24:30,080 - INFO - Starting load for saas-pipeline.raw_src.payments | 30 rows 
+2025-09-20 20:24:33,261 - INFO - Loaded 30 rows into saas-pipeline.raw_src.payments |Duration:  3.18 sec
+2025-09-20 20:35:32,062 - INFO - Logging Initialized
+2025-09-20 20:35:32,085 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-20 20:35:35,441 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.36 sec
+2025-09-20 20:35:35,441 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-20 20:35:37,696 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  2.25 sec
+2025-09-20 20:35:37,696 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-20 20:35:40,531 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  2.83 sec
+2025-09-20 20:35:40,531 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-20 20:35:43,435 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  2.90 sec
+2025-09-20 20:35:43,435 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 5 rows 
+2025-09-20 20:35:45,953 - INFO - Loaded 5 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.52 sec
+2025-09-20 20:35:45,953 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 1 rows 
+2025-09-20 20:35:48,976 - INFO - Loaded 1 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.02 sec
+2025-09-20 20:35:48,976 - INFO - Starting load for saas-pipeline.raw_src.invoices | 59 rows 
+2025-09-20 20:35:53,127 - INFO - Loaded 59 rows into saas-pipeline.raw_src.invoices |Duration:  4.15 sec
+2025-09-20 20:35:53,128 - INFO - Starting load for saas-pipeline.raw_src.line_items | 60 rows 
+2025-09-20 20:35:55,873 - INFO - Loaded 60 rows into saas-pipeline.raw_src.line_items |Duration:  2.75 sec
+2025-09-20 20:35:55,873 - INFO - Starting load for saas-pipeline.raw_src.payments | 59 rows 
+2025-09-20 20:35:59,749 - INFO - Loaded 59 rows into saas-pipeline.raw_src.payments |Duration:  3.88 sec
+2025-09-20 20:44:31,293 - INFO - Logging Initialized
+2025-09-20 20:44:31,325 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-20 20:44:35,208 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.88 sec
+2025-09-20 20:44:35,209 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-20 20:44:37,669 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  2.46 sec
+2025-09-20 20:44:37,670 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-20 20:44:40,291 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  2.62 sec
+2025-09-20 20:44:40,291 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-20 20:44:45,290 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  5.00 sec
+2025-09-20 20:44:45,291 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 8 rows 
+2025-09-20 20:44:48,708 - INFO - Loaded 8 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.42 sec
+2025-09-20 20:44:48,708 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-20 20:44:51,827 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.12 sec
+2025-09-20 20:44:51,827 - INFO - Starting load for saas-pipeline.raw_src.invoices | 57 rows 
+2025-09-20 20:44:57,111 - INFO - Loaded 57 rows into saas-pipeline.raw_src.invoices |Duration:  5.28 sec
+2025-09-20 20:44:57,111 - INFO - Starting load for saas-pipeline.raw_src.line_items | 58 rows 
+2025-09-20 20:44:59,462 - INFO - Loaded 58 rows into saas-pipeline.raw_src.line_items |Duration:  2.35 sec
+2025-09-20 20:44:59,462 - INFO - Starting load for saas-pipeline.raw_src.payments | 57 rows 
+2025-09-20 20:45:04,336 - INFO - Loaded 57 rows into saas-pipeline.raw_src.payments |Duration:  4.87 sec
+2025-09-20 20:50:39,320 - INFO - Logging Initialized
+2025-09-20 20:50:39,349 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-20 20:50:43,068 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.72 sec
+2025-09-20 20:50:43,069 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-20 20:50:46,616 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  3.55 sec
+2025-09-20 20:50:46,616 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-20 20:50:50,197 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  3.58 sec
+2025-09-20 20:50:50,197 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-20 20:50:52,820 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  2.62 sec
+2025-09-20 20:50:52,820 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 9 rows 
+2025-09-20 20:50:58,317 - INFO - Loaded 9 rows into saas-pipeline.raw_src.subscriptions |Duration:  5.50 sec
+2025-09-20 20:50:58,318 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 4 rows 
+2025-09-20 20:51:00,733 - INFO - Loaded 4 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.42 sec
+2025-09-20 20:51:00,734 - INFO - Starting load for saas-pipeline.raw_src.invoices | 47 rows 
+2025-09-20 20:51:03,777 - INFO - Loaded 47 rows into saas-pipeline.raw_src.invoices |Duration:  3.04 sec
+2025-09-20 20:51:03,777 - INFO - Starting load for saas-pipeline.raw_src.line_items | 50 rows 
+2025-09-20 20:51:06,720 - INFO - Loaded 50 rows into saas-pipeline.raw_src.line_items |Duration:  2.94 sec
+2025-09-20 20:51:06,720 - INFO - Starting load for saas-pipeline.raw_src.payments | 47 rows 
+2025-09-20 20:51:10,458 - INFO - Loaded 47 rows into saas-pipeline.raw_src.payments |Duration:  3.74 sec
+2025-09-23 09:11:12,184 - INFO - Logging Initialized
+2025-09-23 09:11:12,275 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 09:11:17,460 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  5.18 sec
+2025-09-23 09:11:17,461 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-23 09:11:22,726 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  5.27 sec
+2025-09-23 09:11:22,727 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-23 09:11:25,553 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  2.83 sec
+2025-09-23 09:11:25,553 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 09:11:29,553 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  4.00 sec
+2025-09-23 09:11:29,554 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2025-09-23 09:11:32,259 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.71 sec
+2025-09-23 09:11:32,260 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 2 rows 
+2025-09-23 09:11:35,637 - INFO - Loaded 2 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.38 sec
+2025-09-23 09:11:35,637 - INFO - Starting load for saas-pipeline.raw_src.invoices | 92 rows 
+2025-09-23 09:11:39,616 - INFO - Loaded 92 rows into saas-pipeline.raw_src.invoices |Duration:  3.98 sec
+2025-09-23 09:11:39,617 - INFO - Starting load for saas-pipeline.raw_src.line_items | 93 rows 
+2025-09-23 09:11:45,977 - INFO - Loaded 93 rows into saas-pipeline.raw_src.line_items |Duration:  6.36 sec
+2025-09-23 09:11:45,977 - INFO - Starting load for saas-pipeline.raw_src.payments | 92 rows 
+2025-09-23 09:11:49,295 - INFO - Loaded 92 rows into saas-pipeline.raw_src.payments |Duration:  3.32 sec
+2025-09-23 09:20:13,962 - INFO - Logging Initialized
+2025-09-23 09:20:14,071 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 09:20:18,367 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  4.30 sec
+2025-09-23 09:20:18,368 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-23 09:20:21,731 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  3.36 sec
+2025-09-23 09:20:21,731 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-23 09:20:25,803 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  4.07 sec
+2025-09-23 09:20:25,803 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 09:20:30,085 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  4.28 sec
+2025-09-23 09:20:30,086 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2025-09-23 09:20:33,745 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.66 sec
+2025-09-23 09:20:33,745 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-23 09:20:36,446 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.70 sec
+2025-09-23 09:20:36,446 - INFO - Starting load for saas-pipeline.raw_src.invoices | 65 rows 
+2025-09-23 09:20:39,370 - INFO - Loaded 65 rows into saas-pipeline.raw_src.invoices |Duration:  2.92 sec
+2025-09-23 09:20:39,371 - INFO - Starting load for saas-pipeline.raw_src.line_items | 67 rows 
+2025-09-23 09:20:43,093 - INFO - Loaded 67 rows into saas-pipeline.raw_src.line_items |Duration:  3.72 sec
+2025-09-23 09:20:43,094 - INFO - Starting load for saas-pipeline.raw_src.payments | 65 rows 
+2025-09-23 09:20:46,097 - INFO - Loaded 65 rows into saas-pipeline.raw_src.payments |Duration:  3.00 sec
+2025-09-23 09:28:18,840 - INFO - Logging Initialized
+2025-09-23 09:28:18,942 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 09:28:23,430 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  4.49 sec
+2025-09-23 09:28:23,431 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-23 09:28:26,724 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  3.29 sec
+2025-09-23 09:28:26,724 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-23 09:28:29,857 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  3.13 sec
+2025-09-23 09:28:29,858 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 09:28:35,769 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  5.91 sec
+2025-09-23 09:28:35,769 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 7 rows 
+2025-09-23 09:28:39,279 - INFO - Loaded 7 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.51 sec
+2025-09-23 09:28:39,280 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 2 rows 
+2025-09-23 09:28:43,063 - INFO - Loaded 2 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.78 sec
+2025-09-23 09:28:43,064 - INFO - Starting load for saas-pipeline.raw_src.invoices | 52 rows 
+2025-09-23 09:28:46,091 - INFO - Loaded 52 rows into saas-pipeline.raw_src.invoices |Duration:  3.03 sec
+2025-09-23 09:28:46,092 - INFO - Starting load for saas-pipeline.raw_src.line_items | 54 rows 
+2025-09-23 09:28:49,361 - INFO - Loaded 54 rows into saas-pipeline.raw_src.line_items |Duration:  3.27 sec
+2025-09-23 09:28:49,361 - INFO - Starting load for saas-pipeline.raw_src.payments | 52 rows 
+2025-09-23 09:28:52,192 - INFO - Loaded 52 rows into saas-pipeline.raw_src.payments |Duration:  2.83 sec
+2025-09-23 09:33:51,370 - INFO - Logging Initialized
+2025-09-23 09:33:51,442 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 09:33:55,704 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  4.26 sec
+2025-09-23 09:33:55,705 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-23 09:33:58,993 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  3.29 sec
+2025-09-23 09:33:58,994 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-23 09:34:02,011 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  3.02 sec
+2025-09-23 09:34:02,011 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 09:34:07,336 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  5.32 sec
+2025-09-23 09:34:07,336 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 8 rows 
+2025-09-23 09:34:20,855 - INFO - Loaded 8 rows into saas-pipeline.raw_src.subscriptions |Duration:  13.52 sec
+2025-09-23 09:34:20,855 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-23 09:34:23,356 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.50 sec
+2025-09-23 09:34:23,356 - INFO - Starting load for saas-pipeline.raw_src.invoices | 57 rows 
+2025-09-23 09:34:27,410 - INFO - Loaded 57 rows into saas-pipeline.raw_src.invoices |Duration:  4.05 sec
+2025-09-23 09:34:27,410 - INFO - Starting load for saas-pipeline.raw_src.line_items | 59 rows 
+2025-09-23 09:34:30,367 - INFO - Loaded 59 rows into saas-pipeline.raw_src.line_items |Duration:  2.96 sec
+2025-09-23 09:34:30,367 - INFO - Starting load for saas-pipeline.raw_src.payments | 57 rows 
+2025-09-23 09:34:33,653 - INFO - Loaded 57 rows into saas-pipeline.raw_src.payments |Duration:  3.29 sec
+2025-09-23 09:42:43,260 - INFO - Logging Initialized
+2025-09-23 09:42:43,340 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 09:42:45,150 - ERROR - Failed to load customers after  1.81 sec: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/saas-pipeline/jobs?uploadType=multipart: Invalid value for jobConfigurationLoad.writeDisposition: WRITE_TRUNC is not a valid value
+Traceback (most recent call last):
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 2682, in load_table_from_file
+    response = self._do_multipart_upload(
+        file_obj, job_resource, size, num_retries, timeout, project=project
+    )
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 3246, in _do_multipart_upload
+    response = upload.transmit(
+        self._http, data, metadata, _GENERIC_CONTENT_TYPE, timeout=timeout
+    )
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\requests\upload.py", line 153, in transmit
+    return _request_helpers.wait_and_retry(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        retriable_request, self._get_status_code, self._retry_strategy
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\requests\_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\requests\upload.py", line 149, in retriable_request
+    self._process_response(result)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\_upload.py", line 125, in _process_response
+    _helpers.require_status_code(response, (http.client.OK,), self._get_status_code)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\_helpers.py", line 108, in require_status_code
+    raise common.InvalidResponse(
+    ...<5 lines>...
+    )
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 400, 'Expected one of', <HTTPStatus.OK: 200>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Resume\dbt\DataFlowIQ\dataflowiq_proj\load\load_to_bq.py", line 20, in load_to_biquery
+    job = client.load_table_from_dataframe(df, table_id, job_config = job_config)
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 2922, in load_table_from_dataframe
+    return self.load_table_from_file(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tmpfile,
+        ^^^^^^^^
+    ...<9 lines>...
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 2686, in load_table_from_file
+    raise exceptions.from_http_response(exc.response)
+google.api_core.exceptions.BadRequest: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/saas-pipeline/jobs?uploadType=multipart: Invalid value for jobConfigurationLoad.writeDisposition: WRITE_TRUNC is not a valid value
+2025-09-23 09:45:38,909 - INFO - Logging Initialized
+2025-09-23 09:45:38,964 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 09:45:44,562 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  5.60 sec
+2025-09-23 09:45:44,562 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-23 09:45:47,729 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  3.17 sec
+2025-09-23 09:45:47,729 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-23 09:45:51,225 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  3.50 sec
+2025-09-23 09:45:51,226 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 09:45:54,925 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  3.70 sec
+2025-09-23 09:45:54,925 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 7 rows 
+2025-09-23 09:45:59,719 - INFO - Loaded 7 rows into saas-pipeline.raw_src.subscriptions |Duration:  4.79 sec
+2025-09-23 09:45:59,720 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 4 rows 
+2025-09-23 09:46:02,589 - INFO - Loaded 4 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.87 sec
+2025-09-23 09:46:02,590 - INFO - Starting load for saas-pipeline.raw_src.invoices | 25 rows 
+2025-09-23 09:46:06,110 - INFO - Loaded 25 rows into saas-pipeline.raw_src.invoices |Duration:  3.52 sec
+2025-09-23 09:46:06,111 - INFO - Starting load for saas-pipeline.raw_src.line_items | 28 rows 
+2025-09-23 09:46:10,754 - INFO - Loaded 28 rows into saas-pipeline.raw_src.line_items |Duration:  4.64 sec
+2025-09-23 09:46:10,754 - INFO - Starting load for saas-pipeline.raw_src.payments | 25 rows 
+2025-09-23 09:46:13,947 - INFO - Loaded 25 rows into saas-pipeline.raw_src.payments |Duration:  3.19 sec
+2025-09-23 10:21:49,337 - INFO - Logging Initialized
+2025-09-23 10:22:52,438 - INFO - Logging Initialized
+2025-09-23 10:25:34,015 - INFO - Logging Initialized
+2025-09-23 18:22:22,949 - INFO - Logging Initialized
+2025-09-23 18:22:23,847 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 18:22:28,280 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  4.43 sec
+2025-09-23 18:22:28,445 - INFO - Starting load for saas-pipeline.raw_src.products | 3 rows 
+2025-09-23 18:22:31,133 - INFO - Loaded 3 rows into saas-pipeline.raw_src.products |Duration:  2.69 sec
+2025-09-23 18:22:31,303 - INFO - Starting load for saas-pipeline.raw_src.plans | 9 rows 
+2025-09-23 18:22:34,118 - INFO - Loaded 9 rows into saas-pipeline.raw_src.plans |Duration:  2.81 sec
+2025-09-23 18:22:34,265 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 18:22:36,935 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  2.67 sec
+2025-09-23 18:22:37,102 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 10 rows 
+2025-09-23 18:22:40,365 - INFO - Loaded 10 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.26 sec
+2025-09-23 18:22:40,551 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-23 18:22:43,381 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.83 sec
+2025-09-23 18:22:43,571 - INFO - Starting load for saas-pipeline.raw_src.invoices | 44 rows 
+2025-09-23 18:22:47,989 - INFO - Loaded 44 rows into saas-pipeline.raw_src.invoices |Duration:  4.42 sec
+2025-09-23 18:22:48,127 - INFO - Starting load for saas-pipeline.raw_src.line_items | 47 rows 
+2025-09-23 18:22:51,774 - INFO - Loaded 47 rows into saas-pipeline.raw_src.line_items |Duration:  3.65 sec
+2025-09-23 18:22:51,953 - INFO - Starting load for saas-pipeline.raw_src.payments | 44 rows 
+2025-09-23 18:22:55,394 - INFO - Loaded 44 rows into saas-pipeline.raw_src.payments |Duration:  3.44 sec
+2025-09-23 18:59:41,731 - INFO - Logging Initialized
+2025-09-23 18:59:42,546 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 18:59:45,431 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  2.88 sec
+2025-09-23 18:59:49,225 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 7 rows 
+2025-09-23 18:59:52,195 - INFO - Loaded 7 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.97 sec
+2025-09-23 18:59:52,346 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-23 18:59:55,169 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.82 sec
+2025-09-23 18:59:55,323 - INFO - Starting load for saas-pipeline.raw_src.invoices | 67 rows 
+2025-09-23 18:59:57,368 - INFO - Loaded 67 rows into saas-pipeline.raw_src.invoices |Duration:  2.05 sec
+2025-09-23 18:59:57,493 - INFO - Starting load for saas-pipeline.raw_src.line_items | 67 rows 
+2025-09-23 19:00:00,695 - INFO - Loaded 67 rows into saas-pipeline.raw_src.line_items |Duration:  3.20 sec
+2025-09-23 19:00:00,814 - INFO - Starting load for saas-pipeline.raw_src.payments | 67 rows 
+2025-09-23 19:00:03,572 - INFO - Loaded 67 rows into saas-pipeline.raw_src.payments |Duration:  2.76 sec
+2025-09-23 19:05:41,577 - INFO - Logging Initialized
+2025-09-23 19:06:13,370 - INFO - Logging Initialized
+2025-09-23 19:06:14,185 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 19:06:17,047 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  2.86 sec
+2025-09-23 19:06:19,818 - INFO - Starting load for saas-pipeline.raw_src.discounts | 2 rows 
+2025-09-23 19:06:22,230 - INFO - Loaded 2 rows into saas-pipeline.raw_src.discounts |Duration:  2.41 sec
+2025-09-23 19:06:22,465 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 9 rows 
+2025-09-23 19:06:25,931 - INFO - Loaded 9 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.47 sec
+2025-09-23 19:06:26,074 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-23 19:06:29,146 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.07 sec
+2025-09-23 19:06:29,288 - INFO - Starting load for saas-pipeline.raw_src.invoices | 56 rows 
+2025-09-23 19:06:32,094 - INFO - Loaded 56 rows into saas-pipeline.raw_src.invoices |Duration:  2.81 sec
+2025-09-23 19:06:32,250 - INFO - Starting load for saas-pipeline.raw_src.line_items | 58 rows 
+2025-09-23 19:06:34,711 - INFO - Loaded 58 rows into saas-pipeline.raw_src.line_items |Duration:  2.46 sec
+2025-09-23 19:06:34,850 - INFO - Starting load for saas-pipeline.raw_src.payments | 56 rows 
+2025-09-23 19:06:37,335 - INFO - Loaded 56 rows into saas-pipeline.raw_src.payments |Duration:  2.48 sec
+2025-09-23 19:09:21,541 - INFO - Logging Initialized
+2025-09-23 19:09:22,422 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 19:09:25,163 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  2.74 sec
+2025-09-23 19:09:28,675 - INFO - Starting load for saas-pipeline.raw_src.discounts | 2 rows 
+2025-09-23 19:09:36,731 - INFO - Loaded 2 rows into saas-pipeline.raw_src.discounts |Duration:  8.06 sec
+2025-09-23 19:09:36,908 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2025-09-23 19:09:39,130 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.22 sec
+2025-09-23 19:09:39,293 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-23 19:09:42,132 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.84 sec
+2025-09-23 19:09:42,303 - INFO - Starting load for saas-pipeline.raw_src.invoices | 16 rows 
+2025-09-23 19:09:46,009 - INFO - Loaded 16 rows into saas-pipeline.raw_src.invoices |Duration:  3.71 sec
+2025-09-23 19:09:46,188 - INFO - Starting load for saas-pipeline.raw_src.line_items | 18 rows 
+2025-09-23 19:09:49,756 - INFO - Loaded 18 rows into saas-pipeline.raw_src.line_items |Duration:  3.57 sec
+2025-09-23 19:09:49,940 - INFO - Starting load for saas-pipeline.raw_src.payments | 16 rows 
+2025-09-23 19:09:52,302 - INFO - Loaded 16 rows into saas-pipeline.raw_src.payments |Duration:  2.36 sec
+2025-09-23 19:15:43,126 - INFO - Logging Initialized
+2025-09-23 19:15:43,963 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 19:15:47,138 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.18 sec
+2025-09-23 19:15:50,224 - INFO - Starting load for saas-pipeline.raw_src.discounts | 2 rows 
+2025-09-23 19:15:50,319 - ERROR - Failed to load discounts after  0.09 sec: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/saas-pipeline/jobs?uploadType=multipart: Invalid value for jobConfigurationLoad.writeDisposition: WRITE_TRUNC is not a valid value
+Traceback (most recent call last):
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 2682, in load_table_from_file
+    response = self._do_multipart_upload(
+        file_obj, job_resource, size, num_retries, timeout, project=project
+    )
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 3246, in _do_multipart_upload
+    response = upload.transmit(
+        self._http, data, metadata, _GENERIC_CONTENT_TYPE, timeout=timeout
+    )
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\requests\upload.py", line 153, in transmit
+    return _request_helpers.wait_and_retry(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        retriable_request, self._get_status_code, self._retry_strategy
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\requests\_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\requests\upload.py", line 149, in retriable_request
+    self._process_response(result)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\_upload.py", line 125, in _process_response
+    _helpers.require_status_code(response, (http.client.OK,), self._get_status_code)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\resumable_media\_helpers.py", line 108, in require_status_code
+    raise common.InvalidResponse(
+    ...<5 lines>...
+    )
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 400, 'Expected one of', <HTTPStatus.OK: 200>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Resume\dbt\DataFlowIQ\dataflowiq_proj\load\load_to_bq.py", line 47, in load_to_biquery
+    job = client.load_table_from_dataframe(df, table_id, job_config = job_config)
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 2922, in load_table_from_dataframe
+    return self.load_table_from_file(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tmpfile,
+        ^^^^^^^^
+    ...<9 lines>...
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Resume\dbt\DataFlowIQ\venv\Lib\site-packages\google\cloud\bigquery\client.py", line 2686, in load_table_from_file
+    raise exceptions.from_http_response(exc.response)
+google.api_core.exceptions.BadRequest: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/saas-pipeline/jobs?uploadType=multipart: Invalid value for jobConfigurationLoad.writeDisposition: WRITE_TRUNC is not a valid value
+2025-09-23 19:16:29,808 - INFO - Logging Initialized
+2025-09-23 19:16:30,677 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 19:16:33,313 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  2.64 sec
+2025-09-23 19:16:36,717 - INFO - Starting load for saas-pipeline.raw_src.discounts | 2 rows 
+2025-09-23 19:16:39,699 - INFO - Loaded 2 rows into saas-pipeline.raw_src.discounts |Duration:  2.98 sec
+2025-09-23 19:16:39,811 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 7 rows 
+2025-09-23 19:16:42,586 - INFO - Loaded 7 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.78 sec
+2025-09-23 19:16:42,742 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 2 rows 
+2025-09-23 19:16:45,614 - INFO - Loaded 2 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.87 sec
+2025-09-23 19:16:45,762 - INFO - Starting load for saas-pipeline.raw_src.invoices | 97 rows 
+2025-09-23 19:16:48,099 - INFO - Loaded 97 rows into saas-pipeline.raw_src.invoices |Duration:  2.34 sec
+2025-09-23 19:16:48,269 - INFO - Starting load for saas-pipeline.raw_src.line_items | 99 rows 
+2025-09-23 19:16:51,957 - INFO - Loaded 99 rows into saas-pipeline.raw_src.line_items |Duration:  3.69 sec
+2025-09-23 19:16:52,384 - INFO - Starting load for saas-pipeline.raw_src.payments | 97 rows 
+2025-09-23 19:16:54,860 - INFO - Loaded 97 rows into saas-pipeline.raw_src.payments |Duration:  2.48 sec
+2025-09-23 19:21:01,173 - INFO - Logging Initialized
+2025-09-23 19:21:02,244 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-23 19:21:04,711 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  2.47 sec
+2025-09-23 19:21:07,579 - INFO - Starting load for saas-pipeline.raw_src.discounts | 1 rows 
+2025-09-23 19:21:09,955 - INFO - Loaded 1 rows into saas-pipeline.raw_src.discounts |Duration:  2.38 sec
+2025-09-23 19:21:10,118 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2025-09-23 19:21:13,102 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.98 sec
+2025-09-23 19:21:13,243 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 2 rows 
+2025-09-23 19:21:17,248 - INFO - Loaded 2 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  4.01 sec
+2025-09-23 19:21:17,392 - INFO - Starting load for saas-pipeline.raw_src.invoices | 24 rows 
+2025-09-23 19:21:19,804 - INFO - Loaded 24 rows into saas-pipeline.raw_src.invoices |Duration:  2.41 sec
+2025-09-23 19:21:19,916 - INFO - Starting load for saas-pipeline.raw_src.line_items | 24 rows 
+2025-09-23 19:21:25,805 - INFO - Loaded 24 rows into saas-pipeline.raw_src.line_items |Duration:  5.89 sec
+2025-09-23 19:21:25,951 - INFO - Starting load for saas-pipeline.raw_src.payments | 24 rows 
+2025-09-23 19:21:29,193 - INFO - Loaded 24 rows into saas-pipeline.raw_src.payments |Duration:  3.24 sec
+2025-09-24 15:06:19,905 - INFO - Logging Initialized
+2025-09-24 15:11:14,207 - INFO - Logging Initialized
+2025-09-24 15:11:23,911 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-24 15:11:27,289 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.38 sec
+2025-09-24 15:11:30,451 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2025-09-24 15:11:34,159 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.71 sec
+2025-09-24 15:11:34,329 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-24 15:11:37,583 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.25 sec
+2025-09-24 15:11:37,813 - INFO - Starting load for saas-pipeline.raw_src.invoices | 50 rows 
+2025-09-24 15:11:42,570 - INFO - Loaded 50 rows into saas-pipeline.raw_src.invoices |Duration:  4.76 sec
+2025-09-24 15:11:42,771 - INFO - Starting load for saas-pipeline.raw_src.line_items | 52 rows 
+2025-09-24 15:11:45,762 - INFO - Loaded 52 rows into saas-pipeline.raw_src.line_items |Duration:  2.99 sec
+2025-09-24 15:11:45,912 - INFO - Starting load for saas-pipeline.raw_src.payments | 50 rows 
+2025-09-24 15:11:49,487 - INFO - Loaded 50 rows into saas-pipeline.raw_src.payments |Duration:  3.57 sec
+2025-09-24 15:17:38,989 - INFO - Logging Initialized
+2025-09-24 15:17:47,747 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-24 15:17:51,113 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.37 sec
+2025-09-24 15:17:54,118 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 5 rows 
+2025-09-24 15:17:58,408 - INFO - Loaded 5 rows into saas-pipeline.raw_src.subscriptions |Duration:  4.29 sec
+2025-09-24 15:17:58,549 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 2 rows 
+2025-09-24 15:18:01,471 - INFO - Loaded 2 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.92 sec
+2025-09-24 15:18:01,617 - INFO - Starting load for saas-pipeline.raw_src.invoices | 35 rows 
+2025-09-24 15:18:04,317 - INFO - Loaded 35 rows into saas-pipeline.raw_src.invoices |Duration:  2.70 sec
+2025-09-24 15:18:04,479 - INFO - Starting load for saas-pipeline.raw_src.line_items | 36 rows 
+2025-09-24 15:18:10,008 - INFO - Loaded 36 rows into saas-pipeline.raw_src.line_items |Duration:  5.53 sec
+2025-09-24 15:18:10,108 - INFO - Starting load for saas-pipeline.raw_src.payments | 35 rows 
+2025-09-24 15:18:14,100 - INFO - Loaded 35 rows into saas-pipeline.raw_src.payments |Duration:  3.99 sec
+2025-09-24 15:19:55,398 - INFO - Logging Initialized
+2025-09-24 15:20:04,431 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-24 15:20:07,896 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  3.47 sec
+2025-09-24 15:20:11,092 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 8 rows 
+2025-09-24 15:20:13,374 - INFO - Loaded 8 rows into saas-pipeline.raw_src.subscriptions |Duration:  2.28 sec
+2025-09-24 15:20:13,504 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2025-09-24 15:20:16,781 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  3.28 sec
+2025-09-24 15:20:16,938 - INFO - Starting load for saas-pipeline.raw_src.invoices | 41 rows 
+2025-09-24 15:20:19,397 - INFO - Loaded 41 rows into saas-pipeline.raw_src.invoices |Duration:  2.46 sec
+2025-09-24 15:20:19,529 - INFO - Starting load for saas-pipeline.raw_src.line_items | 44 rows 
+2025-09-24 15:20:22,284 - INFO - Loaded 44 rows into saas-pipeline.raw_src.line_items |Duration:  2.75 sec
+2025-09-24 15:20:22,453 - INFO - Starting load for saas-pipeline.raw_src.payments | 41 rows 
+2025-09-24 15:20:26,044 - INFO - Loaded 41 rows into saas-pipeline.raw_src.payments |Duration:  3.59 sec
+2025-09-24 15:40:36,639 - INFO - Logging Initialized
+2025-09-24 15:40:45,989 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2025-09-24 15:40:50,581 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  4.59 sec
+2025-09-24 15:40:53,948 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 8 rows 
+2025-09-24 15:40:57,708 - INFO - Loaded 8 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.76 sec
+2025-09-24 15:40:57,882 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 4 rows 
+2025-09-24 15:41:00,647 - INFO - Loaded 4 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.76 sec
+2025-09-24 15:41:00,813 - INFO - Starting load for saas-pipeline.raw_src.invoices | 99 rows 
+2025-09-24 15:41:06,208 - INFO - Loaded 99 rows into saas-pipeline.raw_src.invoices |Duration:  5.40 sec
+2025-09-24 15:41:06,403 - INFO - Starting load for saas-pipeline.raw_src.line_items | 101 rows 
+2025-09-24 15:41:08,781 - INFO - Loaded 101 rows into saas-pipeline.raw_src.line_items |Duration:  2.38 sec
+2025-09-24 15:41:08,969 - INFO - Starting load for saas-pipeline.raw_src.payments | 99 rows 
+2025-09-24 15:41:12,241 - INFO - Loaded 99 rows into saas-pipeline.raw_src.payments |Duration:  3.27 sec

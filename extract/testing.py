@@ -1,0 +1,3 @@
+import os
+
+SERVICE_ACCOUNT_PATH = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")

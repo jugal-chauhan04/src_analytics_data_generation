@@ -1,0 +1,11 @@
+customer_id,customer_name,customer_email,customer_address,payment_method
+1,Joseph Harrison,josephharrison@dataflowiq.com,"5731 Dillon Ferry,South Jasonton, LA 75067",Credit
+2,Kristi Jacobs MD,kristijacobsmd@dataflowiq.com,"146 Dylan Radial Apt. 858,Millerberg, VI 20475",Credit
+3,Lauren Morris,laurenmorris@dataflowiq.com,"12726 Eric Mountains,Barnesfurt, MN 49497",Credit
+4,Melissa Baker,melissabaker@dataflowiq.com,"8784 Kathleen Locks,Riosshire, MA 75078",Credit
+5,Sara Ruiz,sararuiz@dataflowiq.com,"099 Nicole Road Suite 392,Wilsonfurt, PR 92922",Paypal
+6,Crystal Buckley,crystalbuckley@dataflowiq.com,"4597 Gwendolyn Circle,Powersfurt, MA 68057",Credit
+7,Megan Barry,meganbarry@dataflowiq.com,"7224 William Crescent Apt. 576,South Aliciashire, MN 04738",Debit
+8,Elizabeth Callahan,elizabethcallahan@dataflowiq.com,"956 Kimberly Orchard Suite 702,Rachelchester, ME 26803",Credit
+9,Shelley Mason,shelleymason@dataflowiq.com,"Unit 8403 Box 2711,DPO AP 81826",Credit
+10,Ashley Williams,ashleywilliams@dataflowiq.com,"9094 Jones Hills,Port Ernestmouth, GA 82926",Credit

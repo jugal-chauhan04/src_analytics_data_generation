@@ -1,0 +1,220 @@
+[0m11:24:45.549349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD5496C980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD5630C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD5693BED0>]}
+
+
+============================== 11:24:45.607027 | 91c460c8-ea65-4508-9604-0acbd449a38c ==============================
+[0m11:24:45.607027 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:24:45.608421 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\jugal\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init src_analytics_dbt', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m11:24:45.974346 [debug] [MainThread]: Starter project path: D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\include\starter_project
+[0m11:24:46.014959 [info ] [MainThread]: 
+Your new dbt project "src_analytics_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:24:46.016433 [info ] [MainThread]: Setting up your profile.
+[0m11:29:29.522393 [error] [MainThread]: Encountered an error:
+list index out of range
+[0m11:29:29.526838 [error] [MainThread]: Traceback (most recent call last):
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\task\init.py", line 114, in generate_target_from_input
+    choice = option_list[numeric_choice - 1]
+             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+[0m11:29:29.529725 [debug] [MainThread]: Command `dbt init` failed at 11:29:29.529469 after 284.30 seconds
+[0m11:29:29.531028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD0280C8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD02810B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD02727790>]}
+[0m11:29:29.532224 [debug] [MainThread]: Flushing usage events
+[0m11:29:30.324520 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:29:57.197357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091744C980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020917D0C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002091933BED0>]}
+
+
+============================== 11:29:57.205121 | 1ba0214e-d4a0-498a-8f18-d848e1dd6438 ==============================
+[0m11:29:57.205121 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:29:57.206746 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init src_analytics_dbt', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\jugal\\.dbt'}
+[0m11:29:57.232603 [info ] [MainThread]: A project called src_analytics_dbt already exists here.
+[0m11:29:57.234967 [debug] [MainThread]: Command `dbt init` succeeded at 11:29:57.234676 after 0.33 seconds
+[0m11:29:57.237717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209193A5810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209193EF650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209191E1BF0>]}
+[0m11:29:57.239283 [debug] [MainThread]: Flushing usage events
+[0m11:29:57.927015 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:30:19.097913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC5834C980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC58C0C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC5A23BED0>]}
+
+
+============================== 11:30:19.105562 | 94c428eb-285d-4d8a-966c-48fdc39d3cdb ==============================
+[0m11:30:19.105562 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:30:19.106889 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init src_analytics_dbt', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\jugal\\.dbt'}
+[0m11:30:19.131425 [debug] [MainThread]: Starter project path: D:\Resume\dbt\SRC_Analytics\venv\Lib\site-packages\dbt\include\starter_project
+[0m11:30:19.157903 [info ] [MainThread]: 
+Your new dbt project "src_analytics_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:30:19.159590 [info ] [MainThread]: Setting up your profile.
+[0m11:35:04.878164 [info ] [MainThread]: Profile src_analytics_dbt written to C:\Users\jugal\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:35:04.880976 [debug] [MainThread]: Command `dbt init` succeeded at 11:35:04.880696 after 285.98 seconds
+[0m11:35:04.881770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC8710C8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC87110A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC87027680>]}
+[0m11:35:04.882753 [debug] [MainThread]: Flushing usage events
+[0m11:35:05.793730 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:35:40.139234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A132CC980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A13B8C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A1523BED0>]}
+
+
+============================== 11:35:40.146786 | 496e83c8-4847-4c4b-a8fc-c8f8b1af24b3 ==============================
+[0m11:35:40.146786 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:35:40.148166 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\jugal\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m11:35:40.203096 [info ] [MainThread]: dbt version: 1.10.13
+[0m11:35:40.204195 [info ] [MainThread]: python version: 3.13.9
+[0m11:35:40.205031 [info ] [MainThread]: python path: D:\Resume\dbt\SRC_Analytics\venv\Scripts\python.exe
+[0m11:35:40.205937 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m11:35:40.216490 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m11:35:44.688426 [info ] [MainThread]: Using profiles dir at C:\Users\jugal\.dbt
+[0m11:35:44.689634 [info ] [MainThread]: Using profiles.yml file at C:\Users\jugal\.dbt\profiles.yml
+[0m11:35:44.690399 [info ] [MainThread]: Using dbt_project.yml file at D:\Resume\dbt\SRC_Analytics\venv\Scripts\src_analytics\dbt_project.yml
+[0m11:35:44.691153 [info ] [MainThread]: Configuration:
+[0m11:35:44.691868 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m11:35:44.692578 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:35:44.693238 [info ] [MainThread]: Required dependencies:
+[0m11:35:44.693908 [debug] [MainThread]: Executing "git --help"
+[0m11:35:44.770772 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:35:44.771866 [debug] [MainThread]: STDERR: "b''"
+[0m11:35:44.772727 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:35:44.773763 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m11:35:44.774633 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:35:44.775314 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "saas_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m11:35:44.776049 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Resume\dbt\SRC_Analytics\venv\Scripts\src_analytics\dbt_project.yml> not found
+
+[0m11:35:44.777955 [debug] [MainThread]: Command `dbt debug` failed at 11:35:44.777741 after 4.95 seconds
+[0m11:35:44.778624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A4210ED70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A42168710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A42027790>]}
+[0m11:35:44.779326 [debug] [MainThread]: Flushing usage events
+[0m11:35:45.465914 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:40:37.161449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019A1ABAC980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019A1C50C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019A1CB3BED0>]}
+
+
+============================== 11:40:37.171877 | bbd9df25-7c72-43ed-9551-54ab739f0dbd ==============================
+[0m11:40:37.171877 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:40:37.173456 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt debug --profile src_analytics_dbt', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'empty': 'None', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\jugal\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m11:40:37.209454 [info ] [MainThread]: dbt version: 1.10.13
+[0m11:40:37.210837 [info ] [MainThread]: python version: 3.13.9
+[0m11:40:37.212254 [info ] [MainThread]: python path: D:\Resume\dbt\SRC_Analytics\venv\Scripts\python.exe
+[0m11:40:37.213491 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m11:40:41.704055 [info ] [MainThread]: Using profiles dir at C:\Users\jugal\.dbt
+[0m11:40:41.705137 [info ] [MainThread]: Using profiles.yml file at C:\Users\jugal\.dbt\profiles.yml
+[0m11:40:41.706015 [info ] [MainThread]: Using dbt_project.yml file at D:\Resume\dbt\SRC_Analytics\venv\Scripts\src_analytics\dbt_project.yml
+[0m11:40:41.706666 [info ] [MainThread]: adapter type: bigquery
+[0m11:40:41.707280 [info ] [MainThread]: adapter version: 1.10.2
+[0m11:40:41.707943 [info ] [MainThread]: Configuration:
+[0m11:40:41.708549 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:40:41.709150 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:40:41.709735 [info ] [MainThread]: Required dependencies:
+[0m11:40:41.710363 [debug] [MainThread]: Executing "git --help"
+[0m11:40:41.802882 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:40:41.803890 [debug] [MainThread]: STDERR: "b''"
+[0m11:40:41.804758 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:40:41.805647 [info ] [MainThread]: Connection:
+[0m11:40:41.806695 [info ] [MainThread]:   method: service-account
+[0m11:40:41.807580 [info ] [MainThread]:   database: saas-pipeline
+[0m11:40:41.808615 [info ] [MainThread]:   execution_project: saas-pipeline
+[0m11:40:41.809667 [info ] [MainThread]:   schema: raw_src
+[0m11:40:41.810461 [info ] [MainThread]:   location: US
+[0m11:40:41.811557 [info ] [MainThread]:   priority: interactive
+[0m11:40:41.812431 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m11:40:41.813243 [info ] [MainThread]:   impersonate_service_account: None
+[0m11:40:41.814018 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m11:40:41.814789 [info ] [MainThread]:   job_retries: 1
+[0m11:40:41.815544 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m11:40:41.816656 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m11:40:41.817567 [info ] [MainThread]:   timeout_seconds: 300
+[0m11:40:41.818361 [info ] [MainThread]:   client_id: None
+[0m11:40:41.819095 [info ] [MainThread]:   token_uri: None
+[0m11:40:41.819863 [info ] [MainThread]:   compute_region: None
+[0m11:40:41.820618 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m11:40:41.821404 [info ] [MainThread]:   gcs_bucket: None
+[0m11:40:41.822385 [info ] [MainThread]:   dataproc_batch: None
+[0m11:40:41.833243 [info ] [MainThread]: Registered adapter: bigquery=1.10.2
+[0m11:40:42.955124 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m11:40:42.955863 [debug] [MainThread]: On debug: select 1 as id
+[0m11:40:42.956456 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:40:42.957147 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 22] Invalid argument: '"C:\\Users\\jugal\\Downloads\\saas-pipeline-67497e18e393.json"''
+[0m11:40:42.957754 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m11:40:42.958320 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 22] Invalid argument: '"C:\\Users\\jugal\\Downloads\\saas-pipeline-67497e18e393.json"'
+[0m11:40:42.958863 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:40:42.959885 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:40:42.960689 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Resume\dbt\SRC_Analytics\venv\Scripts\src_analytics\dbt_project.yml> not found
+
+[0m11:40:42.961560 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:40:42.963630 [debug] [MainThread]: Command `dbt debug` failed at 11:40:42.963418 after 6.12 seconds
+[0m11:40:42.964311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019A48A0ED70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019A48A68950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019A48927460>]}
+[0m11:40:42.965001 [debug] [MainThread]: Flushing usage events
+[0m11:40:43.764504 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:06:33.996893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CCC750AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CCE0102D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CCE637D90>]}
+
+
+============================== 00:06:34.008682 | 68aab3d9-abbb-4c5d-89ac-7df86d52226d ==============================
+[0m00:06:34.008682 [info ] [MainThread]: Running with dbt=1.10.13
+[0m00:06:34.009235 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt test', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\jugal\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m00:06:34.009705 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Resume\dbt\SRC_Analytics\venv\Scripts\src_analytics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:06:34.010663 [debug] [MainThread]: Command `dbt test` failed at 00:06:34.010542 after 0.19 seconds
+[0m00:06:34.011007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CCE694770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CCE51F770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CCE4E9D00>]}
+[0m00:06:34.011321 [debug] [MainThread]: Flushing usage events
+[0m00:06:34.374000 [debug] [MainThread]: An error was encountered while trying to flush usage events

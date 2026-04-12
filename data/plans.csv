@@ -1,0 +1,10 @@
+plan_id,product_id,plan_name,plan_price,recurring
+101,1,Free,0,monthly
+102,1,Pro,100,monthly
+103,1,Premium,1000,yearly
+201,2,Free,0,monthly
+202,2,Pro,50,monthly
+203,2,Premium,400,yearly
+301,3,Free,0,monthly
+302,3,Pro,200,monthly
+303,3,Premium,2000,yearly

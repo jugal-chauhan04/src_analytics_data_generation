@@ -1,0 +1,2 @@
+discount_id,discount_code,discount_type,discount_value,valid_from,valid_to,product_id,plan_id,is_recurring
+1,WELCOME20,percent,20,2022-01-01,2024-12-31,,,False
