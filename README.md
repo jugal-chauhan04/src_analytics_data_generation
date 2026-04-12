@@ -2,7 +2,7 @@
 
 Real SaaS billing data is sensitive and rarely shared publicly, which makes it difficult to practice building analytics pipelines around it. This project simulates a realistic SaaS billing system in Python — generating linked data across customers, subscriptions, invoices, payments, and discounts — and loads it into Google BigQuery for downstream analytics.
 
-The dataset powers a fully built dbt project that models SaaS revenue metrics including Gross MRR, Net MRR, and Collected MRR. → [View the dbt project](https://github.com/your-username/your-dbt-repo)
+The dataset powers a fully built dbt project that models SaaS revenue metrics including Gross MRR, Net MRR, and Collected MRR. → [View the dbt project](https://github.com/jugal-chauhan04/src_analytics_dbt)
 
 ---
 
