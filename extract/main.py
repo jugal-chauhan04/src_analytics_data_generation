@@ -7,6 +7,7 @@ from load.load_to_bq import get_max_id
 from extract import schema
 from extract import testing
 import warnings
+from extract.config import N_CUSTOMERS
 from datetime import datetime, timezone
 warnings.filterwarnings("ignore", category=FutureWarning, module="google.cloud.bigquery")
 
@@ -32,7 +33,7 @@ def main():
 
     # 1. Generate base data
     max_customer_id = get_max_id(client, "customers")
-    customers = generate_customers(5, start_id = max_customer_id + 1)
+    customers = generate_customers(N_CUSTOMERS, start_id = max_customer_id + 1)
     products = generate_products()
     plans = generate_plans()
 

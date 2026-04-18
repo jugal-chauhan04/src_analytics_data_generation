@@ -7,7 +7,7 @@ START_DATE = datetime(2024, 1, 1).date()
 END_DATE = datetime.today().date()
 
 # DATASET SIZES
-N_CUSTOMERS = 10
+N_CUSTOMERS = 500
 N_PLANS = 9 
 
 # RANDOM SEED

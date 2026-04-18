@@ -578,3 +578,42 @@ google.api_core.exceptions.BadRequest: 400 POST https://bigquery.googleapis.com/
 2026-04-10 01:05:44,480 - INFO - Loaded 36 rows into saas-pipeline.raw_src.line_items |Duration:  4.36 sec
 2026-04-10 01:05:44,480 - INFO - Starting load for saas-pipeline.raw_src.payments | 38 rows 
 2026-04-10 01:05:47,538 - INFO - Loaded 38 rows into saas-pipeline.raw_src.payments |Duration:  3.06 sec
+2026-04-13 23:57:26,033 - INFO - Logging Initialized
+2026-04-13 23:57:33,889 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2026-04-13 23:57:37,925 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  4.04 sec
+2026-04-13 23:57:40,584 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2026-04-13 23:57:43,621 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.04 sec
+2026-04-13 23:57:43,622 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2026-04-13 23:57:46,211 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.59 sec
+2026-04-13 23:57:46,212 - INFO - Starting load for saas-pipeline.raw_src.invoices | 47 rows 
+2026-04-13 23:57:50,371 - INFO - Loaded 47 rows into saas-pipeline.raw_src.invoices |Duration:  4.16 sec
+2026-04-13 23:57:50,372 - INFO - Starting load for saas-pipeline.raw_src.line_items | 50 rows 
+2026-04-13 23:57:53,302 - INFO - Loaded 50 rows into saas-pipeline.raw_src.line_items |Duration:  2.93 sec
+2026-04-13 23:57:53,303 - INFO - Starting load for saas-pipeline.raw_src.payments | 55 rows 
+2026-04-13 23:57:56,562 - INFO - Loaded 55 rows into saas-pipeline.raw_src.payments |Duration:  3.26 sec
+2026-04-14 00:00:02,850 - INFO - Logging Initialized
+2026-04-14 00:00:09,077 - INFO - Starting load for saas-pipeline.raw_src.customers | 5 rows 
+2026-04-14 00:00:24,368 - INFO - Loaded 5 rows into saas-pipeline.raw_src.customers |Duration:  15.29 sec
+2026-04-14 00:00:26,747 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 6 rows 
+2026-04-14 00:00:29,832 - INFO - Loaded 6 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.08 sec
+2026-04-14 00:00:29,833 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 3 rows 
+2026-04-14 00:00:32,440 - INFO - Loaded 3 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  2.61 sec
+2026-04-14 00:00:32,441 - INFO - Starting load for saas-pipeline.raw_src.invoices | 49 rows 
+2026-04-14 00:00:34,990 - INFO - Loaded 49 rows into saas-pipeline.raw_src.invoices |Duration:  2.55 sec
+2026-04-14 00:00:34,991 - INFO - Starting load for saas-pipeline.raw_src.line_items | 52 rows 
+2026-04-14 00:00:40,413 - INFO - Loaded 52 rows into saas-pipeline.raw_src.line_items |Duration:  5.42 sec
+2026-04-14 00:00:40,414 - INFO - Starting load for saas-pipeline.raw_src.payments | 58 rows 
+2026-04-14 00:00:45,688 - INFO - Loaded 58 rows into saas-pipeline.raw_src.payments |Duration:  5.27 sec
+2026-04-14 00:02:29,718 - INFO - Logging Initialized
+2026-04-14 00:02:39,452 - INFO - Starting load for saas-pipeline.raw_src.customers | 500 rows 
+2026-04-14 00:02:44,647 - INFO - Loaded 500 rows into saas-pipeline.raw_src.customers |Duration:  5.19 sec
+2026-04-14 00:02:47,232 - INFO - Starting load for saas-pipeline.raw_src.subscriptions | 621 rows 
+2026-04-14 00:02:50,715 - INFO - Loaded 621 rows into saas-pipeline.raw_src.subscriptions |Duration:  3.48 sec
+2026-04-14 00:02:50,716 - INFO - Starting load for saas-pipeline.raw_src.subscription_discounts | 204 rows 
+2026-04-14 00:02:55,554 - INFO - Loaded 204 rows into saas-pipeline.raw_src.subscription_discounts |Duration:  4.84 sec
+2026-04-14 00:02:55,555 - INFO - Starting load for saas-pipeline.raw_src.invoices | 4202 rows 
+2026-04-14 00:02:59,097 - INFO - Loaded 4202 rows into saas-pipeline.raw_src.invoices |Duration:  3.54 sec
+2026-04-14 00:02:59,098 - INFO - Starting load for saas-pipeline.raw_src.line_items | 4406 rows 
+2026-04-14 00:03:01,824 - INFO - Loaded 4406 rows into saas-pipeline.raw_src.line_items |Duration:  2.73 sec
+2026-04-14 00:03:01,825 - INFO - Starting load for saas-pipeline.raw_src.payments | 5078 rows 
+2026-04-14 00:03:04,734 - INFO - Loaded 5078 rows into saas-pipeline.raw_src.payments |Duration:  2.91 sec
