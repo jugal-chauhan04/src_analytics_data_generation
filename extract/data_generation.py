@@ -1,4 +1,3 @@
-import re 
 import numpy as np 
 import pandas as pd 
 import random
@@ -8,23 +7,7 @@ from dateutil.relativedelta import relativedelta
 from extract.config import START_DATE, END_DATE, N_CUSTOMERS, N_PLANS, SEED, DOMAIN, PRODUCTS, PLANS, UPGRADE_PROBABILITY, DISCOUNTS, SUB_DISCOUNT_ID, MONTHLY_CYCLE_DAYS, YEARLY_CYCLE_DAYS
 
 fake = Faker()
-
-def generate_email(name: str, domain: str, existing: set) -> str:
-
-    """
-    Generate a unique email address from a person's name.
-    Ensure uniqueness by appending a counter if needed.
-    """ 
-    base = re.sub(r'[^a-z]','', name.lower())
-    email = f"{base}@{domain}"
-    counter = 1
-
-    while email in existing:
-        email = f"{base}{counter}@{domain}"
-        counter += 1
-
-    existing.add(email)
-    return email 
+ 
 
 def generate_customers(n: int = N_CUSTOMERS, start_id: int = 1, domain: str = DOMAIN) -> pd.DataFrame:
     """
@@ -37,10 +20,9 @@ def generate_customers(n: int = N_CUSTOMERS, start_id: int = 1, domain: str = DO
     Returns:
         pd.DataFrame: DataFrame with customer information.
     """
-    seen_emails = set()
 
     names = [fake.name() for _ in range(n)]
-    emails = [generate_email(name, domain, seen_emails) for name in names]
+    emails = [f"customer_{i}@{domain}" for i in range(start_id, start_id + n)]
     addresses = [fake.address().replace("\n", ",") for _ in range(n)]
     payment_methods = np.random.choice(
         ["Credit", "Debit", "Paypal"], size = n, p = [0.5, 0.3, 0.2]
